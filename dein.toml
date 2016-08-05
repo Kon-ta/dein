@@ -7,17 +7,20 @@ on_ft = 'toml'
 
 
 [[plugins]] #colorscheme
-repo = 'altercation/vim-colors-solarized'
+"repo = 'tomasr/molokai'
+repo = 'altercation/solarized'
 
-
-# TMUX
-[[plugins]]
-repo = 'tmux-plugins/vim-tmux'
-on_ft = 'tmux'
-
-
-[[plugins]] #
+[[plugins]] #tree
 repo = 'scrooloose/nerdtree'
+
+[[plugins]] 
+repo = 'Shougo/unite.vim'
+
+[[plugins]] 
+repo = 'itchyny/lightline.vim'
+
+[[plugins]] 
+repo = 'Shougo/neocomplete.vim'
 
 [[plugins]] 
 repo = 'Shougo/unite.vim'
