@@ -19,7 +19,7 @@ repo = 'Shougo/unite.vim'
 [[plugins]] 
 repo = 'itchyny/lightline.vim'
 
-[[plugins]] 
+[[plugins]] #complete
 repo = 'Shougo/neocomplete.vim'
 
 [[plugins]] 
